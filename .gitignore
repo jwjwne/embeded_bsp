@@ -1,0 +1,43 @@
+# Build artifacts
+*.o
+*.obj
+*.a
+*.lib
+*.elf
+*.axf
+*.map
+*.hex
+*.bin
+*.srec
+*.lst
+*.htm
+*.build_log.htm
+*.dep
+*.crf
+*.d
+*.bak
+*.sct
+*.lnp
+
+# IDE / editor
+.vscode/
+*.uvguix.*
+*.uvoptx
+*.scvd
+*.dbgconf
+JLinkSettings.ini
+EventRecorderStub.scvd
+
+# Output dirs
+build/
+Build/
+Debug/
+Release/
+Objects/
+Listings/
+output/
+*.elf.map
+
+# OS
+.DS_Store
+Thumbs.db
