@@ -34,7 +34,7 @@ uint32_t I2C_EE_ByteWrite(uint8_t* pBuffer, uint8_t WriteAddr)
 	}
 	return status;
 }
-1
+
 /**
   * @brief   在EEPROM的一个写循环中可以写多个字节，但一次写入的字节数
   *          不能超过EEPROM页的大小，AT24C02每页有8个字节
